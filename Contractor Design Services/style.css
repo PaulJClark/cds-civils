@@ -1,0 +1,185 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Raleway";
+    background-color: #1d1d23;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 0;
+    display: block;
+}
+
+.title {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(63, 152, 253);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display:flex; 
+    overflow: hidden;  
+    font-size: 16px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navbar ul li {
+    margin: 0px 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar p {
+    padding-left: 10px;
+    display: flex;
+}
+
+.About {
+    background-color: rgb(63, 152, 253, 0.8);
+    color: whitesmoke;
+    padding: 2%;
+    font-size: x-large;
+    text-align: center;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-image: url(vecteezy_industrial-construction-cranes-and-building-in-a-beautiful_2126834.jpg);
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(63, 152, 253);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(63, 152, 253);
+}
+
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(63, 152, 253);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+}
+
+.services {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    float: left;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color:black;
+    padding: 20px;
+    margin: 20px;
+    width: calc(33% - 40px); /* Make containers responsive and fit nicely in the row */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.container ul {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.contact{
+    background-color: #1d1d23;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.locations {
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
